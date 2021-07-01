@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+  margin: 0;
+  padding: 0;font-family: 'Roboto', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p, th, td{
+  line-height: 23px;
+  font-size: 15px; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
 }
+.nav-journals
+{
+display: flex;
+justify-content: space-between;
+width: 97%;
+margin: 0 auto;
+}
+.logo{
+  width: 40%;
+  float: left;
+}
+.nav-journals img {
+  height: 42px;
+  margin-top: 9px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.right-head{
+  width: 60%;
+    
+}
+  
+ 
+  .right-head ul li:first-child {
+  
+    font-weight: bold;
+    
+    }
+    .right-head ul {
+      display: flex;
+      float: right;
+      margin-right: 24px;
+      list-style: none;
+      font-size: 16px;
+      
+      }
+    .rightmenu ul li{
+      line-height: 40px;
+    }
+    .right-head ul li{
+      padding-left: 10px;
+    }
+    .main{
+      background: #df0100;
+    }
+    nav{
+     
+      margin: 0;
+      padding: 0;
+      width: 95%;
+      display: flex;
+      justify-content: space-between;
+      color:white;
+      align-items: center;
+    }
+    nav ul{
+      display: flex;
+      text-decoration: none;
+      list-style: none;
+    }
+    nav ul li{
+      font-size: 16px;
+      padding-left: 20px;
+    }
+    .nav-journal{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .container{
+      margin: 0 auto;
+      width: 1155px;
+    }
+    .footermenu{
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0;
+      width: 95%;
+    }
+   
+    .footerfirst ul{
+      list-style: none;
+    
+     
+    }
+    .footer2 ul{
+      list-style: none;
+   
+     
+    }
+    .footer3 ul{
+      list-style: none;
+     
+      
+    }
+    .footer4 ul{
+      list-style: none;
+    
+    
+    }
+    .footer4 ul li, .footer3 ul li, .footer2 ul li, .footerfirst ul li
+    {
+      padding-bottom: 14px;color: #ffffff;font-size: 14px;
+    }
+    .footer4 ul h3, .footer3 ul h3, .footer2 ul h3, .footerfirst ul h3
+    {
+      padding-bottom: 14px;color: #ffffff;font-size: 14px;
+    }
+
+    .metrix-d .metrics-block .block1{
+      display: flex;
+      
+
+    }
+
+    .metrix-d .metrics-block .block1 .metrics-box
+    {
+      width: 20%;
+    }
+    .metrix-d .metrics-block h3
+ {
+  font-weight: normal;    font-size: 15px;
+ }
+ .metrix-d .metrics-block .col-md-2  p
+ {
+ font-size: 24px;
+ }
+ .metrics-block
+ {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+ }
+ .author-matrics-wrap .row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+.metrics-block .col-md-7 .row
+ {
+  display: flex;
+  width: 50vw;
+  justify-content:space-between;align-items: center;
+ }
+ .metrics-block .col-md-7 .row a
+ {
+  text-decoration: none;
+ }
+ .MoreContent h1{
+   font-weight: normal;
+ }
+ .layout h2{
+   color: #df0100;     font-weight: 400; font-size: 30px;
+ }
+ .layout:nth-child(n+3) {
+  border-top: 1px solid #ccc;
+  margin-top: 26px;
+  padding-top: 26px;
+}
+.layout table tr th {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  font-size: 17px!important;
+  font-size: 1.0625rem!important;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-bottom: 0!important;
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.layout table th {
+  width: 25%;
+}
+.layout table tr+tr td, .layout table tr+tr th {
+  padding-top: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+.layout:nth-child(4) .columns-24{
+display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.layout:nth-child(4) .col-16{
+  width: 66.66666667%;
+}
+.layout:nth-child(4) .col-8{
+  width: 33.33333333%;
 }
