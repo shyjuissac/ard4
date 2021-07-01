@@ -1,19 +1,23 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Menu2 from './components/Menu2';
-import MoreContent from './components/MoreContent';
-import Footer from './components/Footer';
-import { BrowserRouter } from 'react-router-dom';
-import { Route } from 'workbox-routing';
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Menu2/>
-        <MoreContent/>
-        <Footer/>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
